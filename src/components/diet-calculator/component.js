@@ -98,7 +98,7 @@ export default class DietCalculator extends Component {
 				// Find a serving that matches the criteria provided by the user
 				const serving = ServingsPerDay["servings to per to miy"].find(serving => {
 					serving = Utils.prepareServing(serving);
-					return category === serving["FoodGroupID"] && gender === serving["Gender"] && serving["Ages"].match(/\d+/g).map(value => Number(value)).find(value => value === Number(age)) !== undefined;
+					return category === serving["FoodGroupID"] && gender === serving["Gender"] && Number(age) >= Number(serving["Ages"].match(/\d+/g)[0]) && Number(age) <= Number(serving["Ages"].match(/\d+/g)[1]);
 				});
 
 				if(!serving) {
