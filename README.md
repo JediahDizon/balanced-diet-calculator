@@ -1,3 +1,4 @@
+
 # Balanced Diet Calculator
 ## Description
 For the eyes of SensorUp code reviewers. This ReactJS web application gives the users suggestions on what to take for their meals for the whole day based off of the user's selected criteria.
@@ -15,3 +16,6 @@ For the eyes of SensorUp code reviewers. This ReactJS web application gives the 
 
 ## Alternative Installation
 - I do not have a web server to be able to serve this elsewhere. Apologies.
+
+## Screenshot
+![Screenshot - 1](https://github.com/JediahDizon/balanced-diet-calculator/raw/master/doc/images/1.png)
