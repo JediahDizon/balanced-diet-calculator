@@ -5,10 +5,10 @@ import * as Utils from "./utils.js";
 import _ from "lodash";
 
 // COMPONENTS
-import { Row, Col, Divider, Form, Select, InputNumber, Icon, Collapse, Carousel, Card, Button } from "antd";
+import { Row, Col, Form, Select, InputNumber, Card, Button } from "antd";
 
 // DATA
-import * as Data from "../data";
+import * as Data from "../../data";
 
 export default class DietCalculator extends Component {
 	constructor(props) {

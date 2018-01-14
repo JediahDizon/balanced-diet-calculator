@@ -38,7 +38,7 @@ export default class App extends Component {
 										the seperate meal types.
 									</p>
 								)}>
-									<a href="#">
+									<a>
 										<p>
 											Upon selecting, the user will view a list of foods and serving sizes that represent
 											a balanced diet for <b>a day</b>.
